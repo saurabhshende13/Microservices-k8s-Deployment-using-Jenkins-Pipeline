@@ -84,6 +84,7 @@ pipeline {
                         kubectl apply -f $WORKSPACE/k8s/user-service.yml
                         kubectl apply -f $WORKSPACE/k8s/product-service.yml
                         kubectl apply -f $WORKSPACE/k8s/ingress.yml
+                        kubectl apply -f $WORKSPACE/k8s/metallb-config.yml
                         '''
                     }
                 }
