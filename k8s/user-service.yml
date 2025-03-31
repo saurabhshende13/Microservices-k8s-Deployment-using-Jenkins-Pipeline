@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: user-service
-        image: 851725538748.dkr.ecr.us-east-1.amazonaws.com/microservicesapp:user
+        image: saurabhdocker13/user-service
         ports:
         - containerPort: 5000
 ---

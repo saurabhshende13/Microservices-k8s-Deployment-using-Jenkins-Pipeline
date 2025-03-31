@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: product-service
-        image: 851725538748.dkr.ecr.us-east-1.amazonaws.com/microservicesapp:product
+        image: saurabhdocker13/product-server
         ports:
         - containerPort: 5001
 ---

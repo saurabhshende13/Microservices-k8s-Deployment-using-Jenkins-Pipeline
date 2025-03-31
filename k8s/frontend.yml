@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: 851725538748.dkr.ecr.us-east-1.amazonaws.com/microservicesapp:frontend
+        image: saurabhdocker13/frontend
         ports:
         - containerPort: 80
 
